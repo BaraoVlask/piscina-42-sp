@@ -14,3 +14,11 @@
 [2021-07-31 12:18:42.427] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
 [2021-07-31 12:18:42.427] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-server/lib/vscode/extensions/github/dist/extension.js
 [2021-07-31 12:18:42.513] [exthost] [info] eager extensions activated
+[2021-07-31 12:25:47.100] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2021-07-31 12:25:47.101] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-server/lib/vscode/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-31 12:25:47.465] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2021-07-31 12:25:47.465] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-server/lib/vscode/extensions/ms-vscode.node-debug2/out/src/extension
+[2021-07-31 12:25:47.504] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2021-07-31 12:25:47.505] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-server/lib/vscode/extensions/ms-vscode.node-debug/dist/extension.js
+[2021-07-31 12:25:47.657] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2021-07-31 12:25:47.657] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code-server/lib/vscode/extensions/debug-server-ready/dist/extension

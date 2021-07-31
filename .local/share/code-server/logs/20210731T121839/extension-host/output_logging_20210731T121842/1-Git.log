@@ -40,3 +40,12 @@ Use '--' to separate paths from revisions, like this:
 > git ls-files --stage -- /home/gbillig/c/02/ex06/ft_str_is_printable.c
 > git cat-file -s 0d0d09685d1d3e0014dbed29f94230c655ff62b6
 > git show --textconv :ex06/ft_str_is_printable.c
+> git ls-files --stage -- /home/gbillig/c/02/ex06/ft_str_is_printable.c
+> git cat-file -s 0d0d09685d1d3e0014dbed29f94230c655ff62b6
+> git show --textconv :ex06/ft_str_is_printable.c
+> git ls-files --stage -- /home/gbillig/c/02/ex06/ft_str_is_printable.c
+> git cat-file -s 0d0d09685d1d3e0014dbed29f94230c655ff62b6
+> git show --textconv :ex06/ft_str_is_printable.c
+> git ls-files --stage -- /home/gbillig/c/02/ex06/ft_str_is_printable.c
+> git cat-file -s 0d0d09685d1d3e0014dbed29f94230c655ff62b6
+> git show --textconv :ex06/ft_str_is_printable.c
