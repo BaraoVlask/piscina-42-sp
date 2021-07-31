@@ -1,0 +1,43 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/03
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/gbillig/eu_aceito
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex05/ft_strlcat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex05/ft_strlcat.c
+> git check-ignore -v -z --stdin
+> git cat-file -s 5c9f92fb6fae1297bc14f46ba7d18556bf11e139
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/02
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex06/ft_str_is_printable.c
+> git ls-files --stage -- /home/gbillig/c/02/ex06/ft_str_is_printable.c
+> git cat-file -s 0d0d09685d1d3e0014dbed29f94230c655ff62b6
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

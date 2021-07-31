@@ -1,0 +1,99 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gbillig/avaliacoes/c/02/afaustin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gbillig/avaliacoes/c/02/afaustin/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/gbillig/eu_aceito
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :ex08/ft_strlowcase.c
+> git ls-files --stage -- /home/gbillig/avaliacoes/c/02/afaustin/ex08/ft_strlowcase.c
+> git cat-file -s c925d144be4e12054f2979a57fec4de5ab8bd782
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/avaliacoes/shell/01/ryoshio-
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gbillig/avaliacoes/shell/01/ryoshio-/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex01/print_groups.sh
+> git ls-files --stage -- /home/gbillig/avaliacoes/shell/01/ryoshio-/ex01/print_groups.sh
+> git cat-file -s a86a4866e20eb9ffd7b3b1cf4144a925e04b2c73
+> git check-ignore -v -z --stdin
+> git show --textconv :ex02/find_sh.sh
+> git ls-files --stage -- /home/gbillig/avaliacoes/shell/01/ryoshio-/ex02/find_sh.sh
+> git cat-file -s e92d73cfef74e94e4933a4576d91fa9218cfae33
+> git check-ignore -v -z --stdin
+> git show --textconv :ex03/count_files.sh
+> git ls-files --stage -- /home/gbillig/avaliacoes/shell/01/ryoshio-/ex03/count_files.sh
+> git cat-file -s 1fb9675b65e6157c9a88aa094a8837f5126becde
+> git check-ignore -v -z --stdin
+> git show --textconv :ex04/MAC.sh
+> git ls-files --stage -- /home/gbillig/avaliacoes/shell/01/ryoshio-/ex04/MAC.sh
+> git cat-file -s 9716ea6af11646c4dc594c698bd55d815bfe4154
+> git show --textconv :ex03/count_files.sh
+> git ls-files --stage -- /home/gbillig/avaliacoes/shell/01/ryoshio-/ex03/count_files.sh
+> git cat-file -s 1fb9675b65e6157c9a88aa094a8837f5126becde
+> git show --textconv :ex04/MAC.sh
+> git ls-files --stage -- /home/gbillig/avaliacoes/shell/01/ryoshio-/ex04/MAC.sh
+> git cat-file -s 9716ea6af11646c4dc594c698bd55d815bfe4154
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex02/find_sh.sh
+> git ls-files --stage -- /home/gbillig/avaliacoes/shell/01/ryoshio-/ex02/find_sh.sh
+> git cat-file -s e92d73cfef74e94e4933a4576d91fa9218cfae33
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/02
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s c375b585800b56d4d95a6dea4dfda5497364ef26
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex00/ft_strcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex00/ft_strcpy.c
+> git cat-file -s 14aec2813e2bb33e09bca0869b31344b36fa384d
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s c375b585800b56d4d95a6dea4dfda5497364ef26
+> git show --textconv :ex00/ft_strcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex00/ft_strcpy.c
+> git cat-file -s 14aec2813e2bb33e09bca0869b31344b36fa384d
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s c375b585800b56d4d95a6dea4dfda5497364ef26

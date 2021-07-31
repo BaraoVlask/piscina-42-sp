@@ -1,0 +1,10 @@
+{
+	"terminal.integrated.shell.linux": "/bin/bash",
+	"workbench.statusBar.visible": true,
+        "git.terminalAuthentication": false,
+		"github.gitAuthentication": false,
+		"explorer.confirmDragAndDrop": false,
+		"workbench.sideBar.location": "right",
+		"editor.minimap.enabled": false,
+		"workbench.iconTheme": "vs-seti"
+}

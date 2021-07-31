@@ -1,0 +1,54 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/03
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/gbillig/eu_aceito
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex03/ft_strncat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex03/ft_strncat.c
+> git cat-file -s 93950681c5258cf4e85f68267ffa6fe8e908f5e9
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/gbillig/c/03/ex03/ft_strncat.c
+> git cat-file -s 93950681c5258cf4e85f68267ffa6fe8e908f5e9
+> git show --textconv :ex03/ft_strncat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex03/ft_strncat.c
+> git cat-file -s 93950681c5258cf4e85f68267ffa6fe8e908f5e9
+> git show --textconv :ex03/ft_strncat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex03/ft_strncat.c
+> git cat-file -s 93950681c5258cf4e85f68267ffa6fe8e908f5e9
+> git show --textconv :ex03/ft_strncat.c
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/02
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex03/ft_str_is_numeric.c
+> git ls-files --stage -- /home/gbillig/c/02/ex03/ft_str_is_numeric.c
+> git cat-file -s 8f0842a970360c8a837d3485206db07f25f9b7ca
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex05/ft_strlcat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex05/ft_strlcat.c
+> git cat-file -s 5c9f92fb6fae1297bc14f46ba7d18556bf11e139

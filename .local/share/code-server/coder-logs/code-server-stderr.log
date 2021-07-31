@@ -1,0 +1,19 @@
+(node:59) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [ChildProcess]. Use emitter.setMaxListeners() to increase limit
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)
+Emitted 'error' event on Socket instance at:
+    at errorOrDestroy (internal/streams/destroy.js:108:12)
+    at onwriteError (_stream_writable.js:424:5)
+    at onwrite (_stream_writable.js:445:5)
+    at internal/streams/destroy.js:50:7
+    at Socket._destroy (net.js:679:5)
+    at Socket.destroy (internal/streams/destroy.js:38:8)
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:93:12) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}

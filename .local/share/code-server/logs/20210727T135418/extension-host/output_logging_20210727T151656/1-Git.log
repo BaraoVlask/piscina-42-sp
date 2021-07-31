@@ -1,0 +1,285 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gbillig/rush/01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/gbillig/eu_aceito
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex00/permutation.c
+> git ls-files --stage -- /home/gbillig/rush/01/ex00/permutation.c
+> git cat-file -s 9c3a68cd8d3a85a4c64f5dd5d48918a689357ded
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/02
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv :ex10/ft_strlcpy.c
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex00/libmath.c
+> git ls-files --stage -- /home/gbillig/rush/01/ex00/libmath.c
+> git cat-file -s eedfc3b5f16f914bd13694743321515ddadd0412
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/00
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex08/ft_print_combn.c
+> git ls-files --stage -- /home/gbillig/c/00/ex08/ft_print_combn.c
+> git cat-file -s c86d81c9dd595e1dbfd833af6ab49878a26d093b
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex08/ft_sort_int_tab.c
+> git ls-files --stage -- /home/gbillig/c/01/ex08/ft_sort_int_tab.c
+> git cat-file -s 9c0315f91801f0fdd8a01b024c457028c52b6827
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex00/ft_strcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex00/ft_strcpy.c
+> git cat-file -s bb66a69eda17a0096f7dd80e4f04ec3ee61a0fc8
+> git check-ignore -v -z --stdin
+> git show --textconv :ex09/ft_strcapitalize.c
+> git ls-files --stage -- /home/gbillig/c/02/ex09/ft_strcapitalize.c
+> git cat-file -s fe6f001f23be59d1a51d11a31ef470bd99d4dba7
+> git check-ignore -v -z --stdin
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv :ex09/ft_strcapitalize.c
+> git ls-files --stage -- /home/gbillig/c/02/ex09/ft_strcapitalize.c
+> git cat-file -s fe6f001f23be59d1a51d11a31ef470bd99d4dba7
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex08/ft_strlowcase.c
+> git ls-files --stage -- /home/gbillig/c/02/ex08/ft_strlowcase.c
+> git cat-file -s 8643045626bcc9be622252386a7faad0416d87b4
+> git show --textconv :ex09/ft_strcapitalize.c
+> git ls-files --stage -- /home/gbillig/c/02/ex09/ft_strcapitalize.c
+> git cat-file -s fe6f001f23be59d1a51d11a31ef470bd99d4dba7
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/02/ex09/core
+> git show --textconv :ex09/ft_strcapitalize.c
+> git ls-files --stage -- /home/gbillig/c/02/ex09/ft_strcapitalize.c
+> git cat-file -s fe6f001f23be59d1a51d11a31ef470bd99d4dba7
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv HEAD:ex10/ft_strlcpy.c
+> git ls-tree -l HEAD -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git ls-tree -l HEAD -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv HEAD:ex10/ft_strlcpy.c
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git ls-tree -l HEAD -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv HEAD:ex10/ft_strlcpy.c
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git ls-tree -l HEAD -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv :ex10/ft_strlcpy.c
+> git show --textconv HEAD:ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git ls-tree -l HEAD -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git show --textconv HEAD:ex10/ft_strlcpy.c
+> git show --textconv :ex10/ft_strlcpy.c
+> git show --textconv :ex09/ft_strcapitalize.c
+> git ls-files --stage -- /home/gbillig/c/02/ex09/ft_strcapitalize.c
+> git cat-file -s 17063f1d4c5bf70c8fc2ba98e926c2ce5426ff77
+> git rev-parse --git-dir
+Open repository: /home/gbillig/shell/01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex05/"/?$*'MaRViN'*$?/"
+> git ls-files --stage -- /home/gbillig/shell/01/ex05/"\?$*'MaRViN'*$?\"
+> git cat-file -s f70d7bba4ae1f07682e0358bd7a2068094fc023b
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex00/ft_strcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex00/ft_strcpy.c
+> git cat-file -s bb66a69eda17a0096f7dd80e4f04ec3ee61a0fc8
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s 0a385b2e22d6a131686a1a556dde4ae6acfb4ec3
+> git show --textconv :ex00/ft_strcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex00/ft_strcpy.c
+> git cat-file -s bb66a69eda17a0096f7dd80e4f04ec3ee61a0fc8
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s 0a385b2e22d6a131686a1a556dde4ae6acfb4ec3
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex02/ft_str_is_alpha.c
+> git ls-files --stage -- /home/gbillig/c/02/ex02/ft_str_is_alpha.c
+> git cat-file -s bb2481de2a8ed24cadd55a301dd88e72dddf7af7
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex03/ft_str_is_numeric.c
+> git ls-files --stage -- /home/gbillig/c/02/ex03/ft_str_is_numeric.c
+> git cat-file -s 8f0842a970360c8a837d3485206db07f25f9b7ca
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex04/ft_str_is_lowercase.c
+> git ls-files --stage -- /home/gbillig/c/02/ex04/ft_str_is_lowercase.c
+> git cat-file -s 763b2bca8b6a78cf8047f9cd5bececd0b255d97c
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex03/ft_str_is_numeric.c
+> git ls-files --stage -- /home/gbillig/c/02/ex03/ft_str_is_numeric.c
+> git cat-file -s 8f0842a970360c8a837d3485206db07f25f9b7ca
+> git show --textconv :ex04/ft_str_is_lowercase.c
+> git ls-files --stage -- /home/gbillig/c/02/ex04/ft_str_is_lowercase.c
+> git cat-file -s 763b2bca8b6a78cf8047f9cd5bececd0b255d97c
+> git show --textconv :ex05/ft_str_is_uppercase.c
+> git ls-files --stage -- /home/gbillig/c/02/ex05/ft_str_is_uppercase.c
+> git cat-file -s 92ded61533033efb4576ea0a5acf45ced26bf47f
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex06/ft_str_is_printable.c
+> git ls-files --stage -- /home/gbillig/c/02/ex06/ft_str_is_printable.c
+> git cat-file -s 0d0d09685d1d3e0014dbed29f94230c655ff62b6
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex07/ft_strupcase.c
+> git ls-files --stage -- /home/gbillig/c/02/ex07/ft_strupcase.c
+> git cat-file -s 34642e085bff075f78453abd8dfc333b427e31cc
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex08/ft_strlowcase.c
+> git ls-files --stage -- /home/gbillig/c/02/ex08/ft_strlowcase.c
+> git cat-file -s 8643045626bcc9be622252386a7faad0416d87b4
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex09/ft_strcapitalize.c
+> git ls-files --stage -- /home/gbillig/c/02/ex09/ft_strcapitalize.c
+> git cat-file -s 17063f1d4c5bf70c8fc2ba98e926c2ce5426ff77
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git check-ignore -v -z --stdin
+> git show --textconv :ex09/ft_strcapitalize.c
+> git ls-files --stage -- /home/gbillig/c/02/ex09/ft_strcapitalize.c
+> git cat-file -s 17063f1d4c5bf70c8fc2ba98e926c2ce5426ff77
+> git show --textconv :ex00/ft_strcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex00/ft_strcpy.c
+> git cat-file -s bb66a69eda17a0096f7dd80e4f04ec3ee61a0fc8
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/02/ex00/a.out
+> git show --textconv :ex00/ft_strcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex00/ft_strcpy.c
+> git cat-file -s bb66a69eda17a0096f7dd80e4f04ec3ee61a0fc8
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/02/ex01/a.out
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s 0a385b2e22d6a131686a1a556dde4ae6acfb4ec3
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s 0a385b2e22d6a131686a1a556dde4ae6acfb4ec3
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s 0a385b2e22d6a131686a1a556dde4ae6acfb4ec3
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s 0a385b2e22d6a131686a1a556dde4ae6acfb4ec3
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s e68d4c46ab588ee7794dcea80fffa882a98b07db
+> git show --textconv :ex01/ft_strncpy.c
+> git show --textconv :ex00/ft_strcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex00/ft_strcpy.c
+> git cat-file -s bb66a69eda17a0096f7dd80e4f04ec3ee61a0fc8
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s e68d4c46ab588ee7794dcea80fffa882a98b07db
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s 28096f7ff66714d0e2f4557a67bb4e51c6c48b28
+> git show --textconv :ex01/ft_strncpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex01/ft_strncpy.c
+> git cat-file -s 28096f7ff66714d0e2f4557a67bb4e51c6c48b28
+> git show --textconv :ex01/ft_strncpy.c

@@ -1,0 +1,69 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gbillig/eu_aceito
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/avaliacoes/c/00/mamontei
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gbillig/avaliacoes/c/00/mamontei/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :ex05/ft_print_comb.c
+> git ls-files --stage -- /home/gbillig/avaliacoes/c/00/mamontei/ex05/ft_print_comb.c
+> git cat-file -s 87451f27a8939855f878292d958915c567dd8cf3
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/00
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex05/ft_print_comb.c
+> git ls-files --stage -- /home/gbillig/c/00/ex05/ft_print_comb.c
+> git cat-file -s 514eaa0c31fb8aae84c12cec8cabfdfa3333be5d
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex06/ft_strlen.c
+> git ls-files --stage -- /home/gbillig/c/01/ex06/ft_strlen.c
+> git cat-file -s 13868ad71585df00b4f304e40d7ee3eec66c4f8f
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

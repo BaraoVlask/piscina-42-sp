@@ -1,0 +1,154 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gbillig/eu_aceito
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/03
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/02
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex06/ft_str_is_printable.c
+> git ls-files --stage -- /home/gbillig/c/02/ex06/ft_str_is_printable.c
+> git cat-file -s 0d0d09685d1d3e0014dbed29f94230c655ff62b6
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git show --textconv :ex01/ft_strncmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex01/ft_strncmp.c
+> git cat-file -s 3b7dcd79906abda35099b215115aacd818a74117
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex02/ft_strcat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex02/ft_strcat.c
+> git cat-file -s a0424b3a378c63f5f08c7d397600ff63b2002cf1
+> git show --textconv :ex01/ft_strncmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex01/ft_strncmp.c
+> git cat-file -s 3b7dcd79906abda35099b215115aacd818a74117
+> git show --textconv :ex02/ft_strcat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex02/ft_strcat.c
+> git cat-file -s a0424b3a378c63f5f08c7d397600ff63b2002cf1
+> git check-ignore -v -z --stdin
+> git show --textconv :ex03/ ft_strncat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex03/ ft_strncat.c
+> git cat-file -s 667dbf6157b9880cfa0506dc23b460ba9b9629cf
+> git check-ignore -v -z --stdin
+> git show --textconv :ex04/ft_strstr.c
+> git ls-files --stage -- /home/gbillig/c/03/ex04/ft_strstr.c
+> git cat-file -s 746432c7fbab17926e40f7073361b5d8dfea5b24
+> git check-ignore -v -z --stdin
+> git show --textconv :ex05/ft_strlcat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex05/ft_strlcat.c
+> git cat-file -s 5c9f92fb6fae1297bc14f46ba7d18556bf11e139
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/03/ex00/a.out
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/03/ex01/a.out
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/03/ex02/a.out
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/03/ex03/a.out
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/03/ex04/a.out
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gbillig/c/03/ex05/a.out
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git show --textconv :ex05/ft_strlcat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex05/ft_strlcat.c
+> git cat-file -s 5c9f92fb6fae1297bc14f46ba7d18556bf11e139
+> git ls-files --stage -- /home/gbillig/c/03/ex05/ft_strlcat.c
+> git cat-file -s 5c9f92fb6fae1297bc14f46ba7d18556bf11e139
+> git show --textconv :ex05/ft_strlcat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex05/ft_strlcat.c
+> git cat-file -s 5c9f92fb6fae1297bc14f46ba7d18556bf11e139
+> git show --textconv :ex05/ft_strlcat.c
+> git show --textconv :ex04/ft_strstr.c
+> git ls-files --stage -- /home/gbillig/c/03/ex04/ft_strstr.c
+> git cat-file -s 746432c7fbab17926e40f7073361b5d8dfea5b24
+> git show --textconv :ex03/ ft_strncat.c
+> git ls-files --stage -- /home/gbillig/c/03/ex03/ ft_strncat.c
+> git cat-file -s 667dbf6157b9880cfa0506dc23b460ba9b9629cf
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git show --textconv :ex01/ft_strncmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex01/ft_strncmp.c
+> git cat-file -s 3b7dcd79906abda35099b215115aacd818a74117
+> git show --textconv :ex00/ft_strcmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex00/ft_strcmp.c
+> git cat-file -s ad590fd4ed271ea4c263f31368435f9dcc0d0a0d
+> git show --textconv :ex01/ft_strncmp.c
+> git ls-files --stage -- /home/gbillig/c/03/ex01/ft_strncmp.c
+> git cat-file -s 3b7dcd79906abda35099b215115aacd818a74117
+> git check-ignore -v -z --stdin
+> git show --textconv :ex10/ft_strlcpy.c
+> git ls-files --stage -- /home/gbillig/c/02/ex10/ft_strlcpy.c
+> git cat-file -s 2fa4b2175da036f1be94dbe9f5c9779da9384397
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex08/ft_sort_int_tab.c
+> git ls-files --stage -- /home/gbillig/c/01/ex08/ft_sort_int_tab.c
+> git cat-file -s 9c0315f91801f0fdd8a01b024c457028c52b6827
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex09/ft_strcapitalize.c
+> git ls-files --stage -- /home/gbillig/c/02/ex09/ft_strcapitalize.c
+> git cat-file -s 17063f1d4c5bf70c8fc2ba98e926c2ce5426ff77

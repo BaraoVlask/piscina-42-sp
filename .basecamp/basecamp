@@ -1,0 +1,44 @@
+BASECAMP_DIR=${HOME}/.basecamp/
+TEST_DIR=basecamp_warmup
+GIT_REPO=https://github.com/42sp/basecamp_warmup.git
+NORMINETTE=/usr/bin/norminette
+CP='\033[0;35m'
+BW='\033[1;37m'
+CG='\033[1;32m'
+RESET='\033[0;0m'
+echo -e "\n\n\n\n\n"
+echo -e "${BW}                      @@@@@@@@@@@     @@@@@@@@@ @@@@@@@@@@  "
+echo -e "${BW}                    @@@@@@@@@@        @@@@@@@   @@@@@@@@@@  "
+echo -e "${BW}                 @@@@@@@@@@@          @@@@      @@@@@@@@@@  "
+echo -e "${BW}               @@@@@@@@@@             @@        @@@@@@@@@@  "
+echo -e "${BW}            @@@@@@@@@@@                         @@@@@@@@@@  "
+echo -e "${BW}          @@@@@@@@@@                         @@@@@@@@@@@    "
+echo -e "${BW}       @@@@@@@@@@@                         @@@@@@@@@@       "
+echo -e "${BW}     @@@@@@@@@@                         @@@@@@@@@@@         "
+echo -e "${BW}  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@@            "
+echo -e "${BW}  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@@        @@  "
+echo -e "${BW}  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@@     @@@@@  "
+echo -e "${BW}  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@@   @@@@@@@  "
+echo -e "${BW}                       @@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@    |      _____ _____ _____ _____ _____ _____ _____ _____ "
+echo -e "${BW}                       @@@@@@@@@@                             |     / __  /  _  /   __/   __/     /  _  /     /  _  /"
+echo -e "${BW}                       @@@@@@@@@@                             |    / __ -/     /__   /   __/   --/     / / / /   __/"
+echo -e "${BW}                       @@@@@@@@@@                             |   /_____/__/__/_____/_____/_____/__/__/_/_/_/__/   "
+echo -e "\n"
+echo -e "${RESET}Testando git... aguarde..."
+
+#### GIT CLONE TEST
+rm -rf ${BASECAMP_DIR}/${TEST_DIR} &>> /dev/null
+git clone ${GIT_REPO} ${BASECAMP_DIR}${TEST_DIR} &>> /dev/null
+
+echo -e "Testando gcc... aguarde..."
+
+rm -rf .output > /dev/null
+make test -C ${BASECAMP_DIR}${TEST_DIR}  &>> ${BASECAMP_DIR}.output 
+make fclean -C ${BASECAMP_DIR}${TEST_DIR}  &>> ${BASECAMP_DIR}.output 
+
+echo -e "Testando norminette... aguarde..."
+${NORMINETTE} ${BASECAMP_DIR}${TEST_DIR}/srcs/ &>> ${BASECAMP_DIR}.output 
+
+rm -rf ${BASECAMP_DIR}${TEST_DIR} &>> /dev/null
+echo -e "${CG}Testes realizados com sucesso.. Obrigada, e boas vindas ao 42 Basecamp!\n${RESET}"
+

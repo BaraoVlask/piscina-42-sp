@@ -1,0 +1,28 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gbillig/avaliacoes/c/05/viferrei
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/gbillig/avaliacoes/c/05/viferrei/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/gbillig/eu_aceito
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex04/ft_fibonacci.c
+> git ls-files --stage -- /home/gbillig/avaliacoes/c/05/viferrei/ex04/ft_fibonacci.c
+> git cat-file -s 5e744a5d3667e1c6162a5267852ff162e47823e8
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

@@ -1,0 +1,69 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/gbillig/eu_aceito
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex06/ft_strlen.c
+> git ls-files --stage -- /home/gbillig/c/01/ex06/ft_strlen.c
+> git cat-file -s 13868ad71585df00b4f304e40d7ee3eec66c4f8f
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ex06/ft_strlen.c
+> git ls-files --stage -- /home/gbillig/c/01/ex06/ft_strlen.c
+> git cat-file -s 13868ad71585df00b4f304e40d7ee3eec66c4f8f
+> git show --textconv :ex05/ft_putstr.c
+> git ls-files --stage -- /home/gbillig/c/01/ex05/ft_putstr.c
+> git cat-file -s bcf36f789377f3d58dc72ecdc3cb08dacd79d2fc
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/c/00
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex07/ft_putnbr.c
+> git ls-files --stage -- /home/gbillig/c/00/ex07/ft_putnbr.c
+> git cat-file -s 4f03523179ca2ffe54518dc000f57dbd43a80a28
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/gbillig/rush/01
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ex00/permutation.c
+> git ls-files --stage -- /home/gbillig/rush/01/ex00/permutation.c
+> git cat-file -s 9c3a68cd8d3a85a4c64f5dd5d48918a689357ded
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
